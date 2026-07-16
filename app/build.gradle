@@ -1,18 +1,18 @@
 plugins {
     id 'com.android.application'
 }
-apply plugin: 'stringfog'
+// apply plugin: 'stringfog'
 
-import com.github.megatronking.stringfog.plugin.kg.RandomKeyGenerator
-import com.github.megatronking.stringfog.plugin.StringFogMode
+// import com.github.megatronking.stringfog.plugin.kg.RandomKeyGenerator
+// import com.github.megatronking.stringfog.plugin.StringFogMode
 
-stringfog {
-    implementation 'com.github.megatronking.stringfog.xor.StringFogImpl'
-    packageName 'com.github.megatronking.stringfog'
-    enable true
-    kg new RandomKeyGenerator()
-    mode StringFogMode.base64
-}
+// stringfog {
+//     implementation 'com.github.megatronking.stringfog.xor.StringFogImpl'
+//     packageName 'com.github.megatronking.stringfog'
+//     enable true
+//     kg new RandomKeyGenerator()
+//     mode StringFogMode.base64
+// }
 
 android {
     namespace "com.github.megatronking.stringfog"
