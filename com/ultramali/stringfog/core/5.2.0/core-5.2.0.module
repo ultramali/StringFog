@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.ultramali.stringfog",
+    "module": "core",
+    "version": "5.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "core-5.2.0.jar",
+          "url": "core-5.2.0.jar",
+          "size": 24209,
+          "sha512": "c1f3e722b63d7ff1d51c19e0e44bd15b84999db1e3bcc1879711461e7a6a0ed794d4ef68dc6a029c2e0288850888e3c0b66e3f174d6e6cb61b638c1a09da7480",
+          "sha256": "b7e47860f2cec1fda3b6152ffb8c4feb0f094b6b807ae97df079484090e0f484",
+          "sha1": "155abe5654a97784fb9bab42d82b5cc5957f0ec2",
+          "md5": "7449678e81b50381a0b9dbad5bae26ac"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.7"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "javawriter",
+          "version": {
+            "requires": "2.5.1"
+          }
+        },
+        {
+          "group": "com.ultramali.stringfog",
+          "module": "interface",
+          "version": {
+            "requires": "5.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-5.2.0.jar",
+          "url": "core-5.2.0.jar",
+          "size": 24209,
+          "sha512": "c1f3e722b63d7ff1d51c19e0e44bd15b84999db1e3bcc1879711461e7a6a0ed794d4ef68dc6a029c2e0288850888e3c0b66e3f174d6e6cb61b638c1a09da7480",
+          "sha256": "b7e47860f2cec1fda3b6152ffb8c4feb0f094b6b807ae97df079484090e0f484",
+          "sha1": "155abe5654a97784fb9bab42d82b5cc5957f0ec2",
+          "md5": "7449678e81b50381a0b9dbad5bae26ac"
+        }
+      ]
+    }
+  ]
+}
